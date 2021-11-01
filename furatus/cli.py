@@ -26,13 +26,13 @@ def cli(hits, algorithm, output, minlen, maxlen):
         success = f.download(f.build_url(code), output, f"{code}.jpg")
 
         if success:
-            print(f"Hit @ {code}")
             hit_count += 1
+            print(f"[{code_count}|{hit_count}] Hit @ {code}")
 
         if hit_count == hits: # stop searching if hits is reached
             break
 
-    print(f"\nFinished! {code_count} codes tried.\n")
+    print(f"\nDone!")
 
 
 if __name__ == "__main__":
