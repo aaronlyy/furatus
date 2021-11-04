@@ -23,7 +23,7 @@ def _get_source_attr(html: str) -> str | None:
         return None
 
 def _save_content_b(content: str, out_path: str, out_file: str) -> bool:
-    """Saves givent content to file (write binary)"""
+    """Saves given content to file (write binary)"""
     if not os.path.exists(out_path):
         os.makedirs(out_path)
     if not os.path.exists(os.path.join(out_path, out_file)):
