@@ -1,4 +1,24 @@
-# furatus
+# Furatus
+
+```txt
+fūrātus m ‎(feminine fūrāta, neuter fūrātum); first/second declension
+stolen, plundered
+```
+
+## What is furatus?
+
+```txt
+fūrātus m ‎(feminine fūrāta, neuter fūrātum); first/second declension
+1. stolen, plundered
+```
+
+Furatus scrapes lightshot for images and downloads them.
+
+In detail it creates random codes, builds an url, checks for an image & if an image exists, it downloads and saves it.
+
+## How to use
+
+Furatus is tested with Python 3.10.
 
 ```txt
 Usage: furatus.py [OPTIONS]
