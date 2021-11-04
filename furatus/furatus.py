@@ -22,7 +22,6 @@ def cli(hits, algorithm, output, minlen, maxlen):
 
     for code in algorithms[algorithm](minlen, maxlen): # for endless generate code
         code_count += 1
-        print(code)
         filename = f"{code}.png"
         success = download(code, output, filename)
 
