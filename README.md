@@ -31,3 +31,12 @@ Options:
   -e, --maxlen INTEGER      Maximum length of code  [default: 6]
   --help                    Show this message and exit.
 ```
+
+## To Do
+
+- Add multithreading support
+- Add more algorithms
+
+## About
+
+Made with ♥ by [aaronlyy](https://github.com/aaronlyy)
