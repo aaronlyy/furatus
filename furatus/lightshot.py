@@ -12,7 +12,7 @@ def _request_with_ua(url: str, ua: str = "Mozilla/5.0 (Windows NT 10.0; Win64; x
 def _get_source_attr(html: str) -> str | None:
     """Gets the source attribute of the screenshot img tag"""
     soup = bs(html, "html.parser")
-    img_tag: bs4.element.Tag = soup.find(id="screenshot-image")
+    img_tag: bs.element.Tag = soup.find(id="screenshot-image")
     if img_tag:
         attr_src = img_tag["src"]
         if attr_src.startswith("https"):
