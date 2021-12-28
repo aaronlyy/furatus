@@ -56,11 +56,4 @@ def download(url_or_code: str, out_path: str, out_file) -> bool:
                 success_save = _save_content_b(content, out_path, out_file) # save file
                 if success_save:
                     return True
-                else:
-                    return False
-            else:
-                return False
-        else:
-            return False
-    else:
-        return False
+    return False
