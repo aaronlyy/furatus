@@ -1,4 +1,4 @@
-<h2 align="center">Furatus</h2>
+<h1 align="center">Furatus</h1>
 
 ```txt
 fūrātus m ‎(feminine fūrāta, neuter fūrātum); first/second declension
